@@ -1,0 +1,339 @@
+<HTML>
+<HEAD>
+  <TITLE>BiotechnologyClosed.html</TITLE>
+  <meta NAME = "GENERATOR"          CONTENT = "IHMC CmapTools vr. 4.12 ">
+  <meta NAME = "KEYWORDS"           CONTENT = "Concept Map, cmap, CmapTools, IHMC, Biotechnology,  FDA,  Medical Equipment,  Drugs,  Pharmaceutical,  Agricultural,  Techniques used to solve problems,  Francisco Leyva Biotechnology 3/21/2017,  Drug Researchers,  Biotechnology,  Waste Disposal,  Engineer,  Workplace Safety,  Breeding,  Ethanol Fuel,  Advancements in Genetics Research,  Renewable Resources,  Regulations,  Life Science Researchers,  Biotechnology,  Healthcare">
+  <meta NAME = "DESCRIPTION"        CONTENT = "This Concept Map, created with IHMC CmapTools, has information related to: Biotechnology, Users of Biotechnology are Manufacturers, Animal Research used for Food, Regulations over Healthcare, Biotechnology requires Industry Practices, Biotechnology offers Careers in Biotechnology, GMOs used for Food, Renewable Resources like Biofuels, Careers in Biotechnology ranges from Agricultural, Biotechnology is Technology based on Biology, Biotechnology has Industry and Research, Biotechnology needs Regulations, GMOs used for Breeding, GMOs used for Research, Careers in Biotechnology ranges from Pharmaceutical, Regulations over Workplace Safety, Careers in Biotechnology ranges from Research, Testing, and Medical Labs, Fuel Companies by using Renewable Resources, GMOs have lead to Advancements in Genetics Research, Industry and Research practiced in GMOs, Industry Practices enforced by FDA">
+  <meta NAME = "AUTHOR"             CONTENT = "IHMC CmapTools">
+  <meta HTTP-EQUIV = "Content-Type" CONTENT = "text/html; charset = UTF-8">
+  <script LANGUAGE="JavaScript1.2">
+  <!--
+    //  PopUp --
+    //  Institute for Human and Machine Cognition, http://www.ihmc.us/
+    //  CmapTools, Version 4.11, http://cmap.ihmc.us/
+    //  Modify by: CmapTools Developers, cmapsupport@ihmc.us
+    //  Date: 12/14/2006
+
+    var IE = 0;
+    var IE4PC = 0;
+    var NS = 0;
+    var GECKO = 0;
+
+    var openpopups = new Array();
+
+    if (document.all) {                 // Internet Explorer Detected
+	   IE = true;	
+    }
+    else if (document.layers) {         // Netscape Navigator Detected
+	   NS = true;	
+    }
+    else if (document.getElementById) { // Netscape 6 Detected
+       GECKO = true;
+    }
+    else {
+	   alert("Unrecognized Browser Detected::\nSorry, your browser is not compatible.");
+    }
+
+    if (IE)
+    {
+	   OS = navigator.platform;
+	   VER = new String(navigator.appVersion);
+	   VER = VER.substr (0, VER.indexOf(" "));
+	   if ((VER < 4.8) && (OS == "Win32")) 
+	   {
+	       IE4PC = 1;
+	   }
+    }
+
+    function handleResize() {
+	    location.reload();
+	    return false;
+    }
+
+
+    if ((NS) && (navigator.platform == "MacPPC")) {
+	   window.captureEvents (Event.RESIZE);
+	   window.onresize = handleResize;
+    }
+
+    function openResource(event, resourcePath, resourceName, resourceType)
+    {
+	   var newwindow;
+
+       // Resource MIMETypes are enumerated as follows: 
+       // cMap     = Undefined
+       // Image    = 0
+       // Video    = 1
+       // Text     = 2
+       // Audio    = 3
+
+       popDown();
+
+	   switch (resourceType) 
+	   {
+	    case 0:     //Image
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<center><img src=\"';
+                    text += resourcePath;
+                    text +='\"> </center>';
+             break;
+		
+	    case 1:  text   // Video
+		     newwindow = window.open (resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+                     var text ='<embed src=\"';
+                     text += resourcePath;
+                     text +='\" autostart=true> </embed> ';
+             break;
+
+	    case 2:      // Text or Unknown 
+		     newwindow = window.open(resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+              break;
+
+	    case 3:       // Audio
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<embed src=\"';
+                    text += resourcePath;
+                    text +='\" autoplay=true> </embed> ';
+             break;
+
+	    case 4:
+                    newwindow = window.open(resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+	     break;
+	    }
+        return;
+    }
+
+
+
+    function popUpEvt(event, popupName)
+    {
+	popDown();
+
+	if (GECKO)
+	{
+	    document.getElementById(popupName).style.left = event.layerX;
+	    document.getElementById(popupName).style.top = event.layerY;
+	    document.getElementById(popupName).style.background = "#B3B3B3";
+	    document.getElementById(popupName).style.visibility = "visible";
+	    openpopups.push(popupName);
+	}
+	else if (NS) 
+	{
+	    document.layers[popupName].moveTo (event.pageX, event.pageY);
+	    document.layers[popupName].bgColor = "#B3B3B3";
+	    document.layers[popupName].visibility = "show";
+	    openpopups.push(popupName);
+	}
+	else // if (IE)
+	{
+	    window.event.cancelBubble = true;
+	    if (!IE4PC) {
+		document.all[popupName].style.backgroundColor = "#B3B3B3";
+	    }	
+	    document.all[popupName].style.left = window.event.clientX + document.body.scrollLeft;
+	    document.all[popupName].style.top = window.event.clientY + document.body.scrollTop;
+	    document.all[popupName].style.visibility = "visible";
+	    openpopups[openpopups.length] = popupName;
+	}
+	return false;
+    }
+
+    function popDown()
+    {
+	var popupname;
+	
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+		document.getElementById(popupname).style.visibility = "hidden";
+	    }
+	    else if (NS) {
+		document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+		document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+	return;
+    }
+
+    function popDownNoGecko() 
+    {
+	var popupname;
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+           //  document.getElementById(popupname).style.visibility = "hidden"; 
+	        return;   // erased for test purposes
+	    }  
+	    else if (NS) {
+	        document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+	        document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+        return;
+    }
+  //-->
+  </script>
+</HEAD>
+<BODY bgcolor="#FFFFFF" leftmargin="0" topmargin="0">
+<noscript>
+  <table width=90% cellpadding=10>
+    <tr>
+      <td bgcolor=ff4447>
+        <font color=000000 size=+1 face="helvetica">
+        <h1>WARNING:</h1>
+        <b>JavaScript is turned OFF.  None of the links on this concept map will <br>
+           work until it is reactivated.
+          <p>
+            <a href="http://cmap.ihmc.us/docs/EnablingJavaScript.html">
+                            If you need help turning JavaScript On, click here.
+            </a>
+          </p>
+        </b>
+      </td>
+    </tr>
+  </table>
+This Concept Map, created with IHMC CmapTools, has information related to: Biotechnology, Users of Biotechnology are Manufacturers, Animal Research used for Food, Regulations over Healthcare, Biotechnology requires Industry Practices, Biotechnology offers Careers in Biotechnology, GMOs used for Food, Renewable Resources like Biofuels, Careers in Biotechnology ranges from Agricultural, Biotechnology is Technology based on Biology, Biotechnology has Industry and Research, Biotechnology needs Regulations, GMOs used for Breeding, GMOs used for Research, Careers in Biotechnology ranges from Pharmaceutical, Regulations over Workplace Safety, Careers in Biotechnology ranges from Research, Testing, and Medical Labs, Fuel Companies by using Renewable Resources, GMOs have lead to Advancements in Genetics Research, Industry and Research practiced in GMOs, Industry Practices enforced by FDA
+
+</noscript>
+
+<map name="BiotechnologyClosed.html">
+  <area shape="rect"
+        href="1R4X6NBX6IZ5C069I137ItextIhtml"
+        onClick="popUpEvt(event,'1R4X6NBX6IZ5C069I137ItextIhtml'); return false;"
+        coords="511,504,529,522">
+  <area shape="rect"
+        href="1R504570QIKMY4XNI1J9ItextIhtml"
+        onClick="popUpEvt(event,'1R504570QIKMY4XNI1J9ItextIhtml'); return false;"
+        coords="-159,-36,-141,-18">
+  <area shape="rect"
+        href="1R58HP68DI16CC31NIGHItextIhtml"
+        onClick="popUpEvt(event,'1R58HP68DI16CC31NIGHItextIhtml'); return false;"
+        coords="821,1077,839,1095">
+  <area shape="rect"
+        href="1R58HM6YSIH5KXDKIB5ItextIhtml"
+        onClick="popUpEvt(event,'1R58HM6YSIH5KXDKIB5ItextIhtml'); return false;"
+        coords="618,816,636,834">
+  <area shape="rect"
+        href="1R58HRFGGI1JDQ7WHIJDItextIhtml"
+        onClick="popUpEvt(event,'1R58HRFGGI1JDQ7WHIJDItextIhtml'); return false;"
+        coords="456,1056,474,1074">
+</map>
+
+<center>
+  <table width=* height=* cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td valign=center align=center>
+        <img USEMAP="#BiotechnologyClosed.html"
+             SRC="BiotechnologyClosed.jpg"
+             ALIGN=middle
+             BORDER=0
+             onClick=popDown();>
+      </td>
+    </tr>
+    <tr>
+      <td VALIGN=top ALIGN=right>
+        <table>
+          <tr>
+            <td ALIGN=right VALIGN=middle>
+              <map NAME="CmapToolsTrademark">
+                <area SHAPE="rect"
+                      href="http://cmap.ihmc.us/"
+                      onClick="openResource(event,'http://cmap.ihmc.us/', 0, 2); return false;"
+                      coords="1,1,210,50">
+              </map>
+            </td>
+          </tr>
+          <tr>
+            <td  ALIGN=right VALIGN=middle>
+              <img USEMAP="#CmapToolsTrademark"
+                   SRC="CmapToolsTrademark.gif" 
+                   ALT="IHMC Cmap Tools Trademark" width="210" height="50"
+                   ALIGN=middle
+                   BORDER=0>
+            </td>
+            <td VALIGN=middle>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</center>
+</BODY>
+</HTML>
+<div id="1R4X6NBX6IZ5C069I137ItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://www.bio.org/articles/biotechnology-solutions-everyday-life "TITLE="">
+      Solutions
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1R504570QIKMY4XNI1J9ItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://www.newscientist.com/article/dn25562-glowing-space-mice-show-where-quantum-dots-lodge/ "TITLE="">
+      GMO Mice
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1R58HP68DI16CC31NIGHItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://www.bellperformance.com/blog/bid/112138/Ethanol-fuel-stabilizers "TITLE="">
+      Ethanol Fuel
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1R58HM6YSIH5KXDKIB5ItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://dglassassociates.wordpress.com/2010/01/13/applications-of-biotechnology-to-renewable-fuel-production-overview/ "TITLE="">
+      David Glass
+      </a>
+      </td>
+    </tr>
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4741079/ "TITLE="">
+      NCBI
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1R58HRFGGI1JDQ7WHIJDItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://fitsnews.wordpress.com/2007/12/03/algae-fuel-baby/ "TITLE="">
+      Algae Fuel
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
